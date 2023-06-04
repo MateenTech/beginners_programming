@@ -50,4 +50,5 @@ console.log(numOfUsers); // 5 elements we have in array;
 let lastElement = userNames[userNames.length - 1];
 console.log(lastElement); // Asghar last
 console.log(userNames[userNames.length - 2]); // Ahmed 2nd last
+console.log(userNames[userNames.length - 3]); // Micheal 3rd last
 
