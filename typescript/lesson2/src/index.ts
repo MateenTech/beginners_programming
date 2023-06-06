@@ -1,0 +1,3 @@
+// Arrays
+
+const firstNames = [];
