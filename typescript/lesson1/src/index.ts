@@ -1,4 +1,13 @@
 // Primitivies data type
 
-let animal: string = "Dog";
-let breed: string = "Golden Retriever";
+
+let userName: string = "Mateen";
+let userAge: number = 22;
+let isLoggedIn: boolean = true;
+
+
+userName = "Mateen Bhutto";
+// userAge = "22"; // Can't provide string data type to number declared variable
+
+userAge = 19;
+isLoggedIn = true;
