@@ -11,3 +11,5 @@ userName = "Mateen Bhutto";
 
 userAge = 19;
 isLoggedIn = true;
+
+console.log(userName);

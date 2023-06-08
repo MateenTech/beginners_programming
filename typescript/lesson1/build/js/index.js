@@ -8,3 +8,4 @@ userName = "Mateen Bhutto";
 // userAge = "22"; // Can't provide string data type to number declared variable
 userAge = 19;
 isLoggedIn = true;
+console.log(userName);

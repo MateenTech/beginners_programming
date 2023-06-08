@@ -52,3 +52,50 @@ console.log(lastElement); // Asghar last
 console.log(userNames[userNames.length - 2]); // Ahmed 2nd last
 console.log(userNames[userNames.length - 3]); // Micheal 3rd last
 
+
+console.log("\nArrays Methods: ")
+// Array .push() method
+// .push(): pushes the items/data at the end of the array
+// .push(): returns the total number of items
+let pushedUsers = userNames.push("Muhammad Ali", "Mike Tyson");
+console.log(userNames);
+console.log(pushedUsers);
+
+// Array .pop()
+// .pop(): pops out the last item from the array, and also returns the poped item
+let lastItem = userNames.pop(); // returns last item (Mike Tyson)
+console.log(lastItem);
+console.log(userNames); // now userNames don't contain last item
+
+// Array .shift()
+// .shift(): returns the first item from array at the beginning
+let firstItem = userNames.shift(); // returns the first Item (Mateen)
+console.log(firstItem);
+console.log(userNames); // now userNames don't contain first item
+
+
+// Array .unshift()
+// .unshift(): works same as .push(), instead .unshift() adds item at beginning
+// .unshift(): returns the total number of items
+let newUser = userNames.unshift("Saif Ali", "Nadir Ali"); 
+console.log(userNames);
+console.log(newUser);
+
+
+console.log("\n\t\tArray .splice method:")
+// Array .splice method
+// .splice(): deletes or removes the number of items from array and returns as new Array
+// it changes the original array of removed items/elements
+// .splice(): methods first argument is starting index and second argument is number of items to delete
+let testSplice = userNames.splice(0,2); // start from index 0 and return 2 removed item
+console.log("New Returned Items: ", testSplice);
+console.log("Original Array: ", userNames);
+
+
+console.log("\n\t\tArray .slice method:")
+// Array .slice() method
+// .slice(): method removes and returns as the copy of removed item
+// and it doesn't changes the original array
+let copiedReturnItem = userNames.slice(0, 3);
+console.log("Copied Return: ", copiedReturnItem)
+console.log("Original Array:", userNames);
